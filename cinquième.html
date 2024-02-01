@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/cinquième.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./assets/image/code-icon-design-vector-png_125856-removebg-preview.png" alt="logo">
+        </div>
+        <h1>Le codage pour les nouveaux</h1>
+        <nav class="link-container">
+            <ul>
+                <li><a href="./premier.html">Accueil</a></li>
+                <li><a href="./second.html">Le HTML</a></li>
+                <li><a href="./troisième.html">Le CSS</a></li>
+                <li><a href="./quatrième.html">Le PHP et le JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>N'hésitez pas à nous conacter</h1>
+        <form action="./sixième.html" method="get"><!-- label en premier puis input pour les boutons a droite, l'inverse les mets à gauche-->
+            <div>
+                <label for="name"><strong>Notre adresse e-mail</strong></label><br>
+                <p>skillissuelearning@gmailcom</p>
+            </div>
+            <div>
+                <label for="firstname"><strong>Notre numéro</strong></label><br>
+                <p>07 51 42 85 65 92</p>
+            </div>
+            <div>
+                <h2>Eventuels critiques</h2>
+            </div>
+            <div class="choix-ennui">
+                <label for="pedagogie">Manque d'informations</label>
+                <input type="radio" id="pedagogie" name="pedagogie">
+                <label for="pedagogie">Trop complexe a comprendre (skill issue honnêtement)</label>
+                <input type="radio" id="psychologie" name="psychologie">
+                <label for="informatique">Plainte</label>
+                <input type="radio" id="informatique" name="informatique">
+                <label for="other">Autre</label>
+                <input type="radio" id="other" name="other">
+            </div>
+            <div>
+                <label for="commentaire"><h3>Commentaire</h3></label>
+                <p>Posez-nous des questions ou précisez vos remarques</p>
+                <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+                <input type="reset" value="effacer les datas">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>En filiaire avec</p>
+        <div class="filiaire">
+            <img src="./assets/image/logo-ri7-long-gradient.jpg" alt="coop">
+        </div>
+    </footer>
+</body>
+</html>
